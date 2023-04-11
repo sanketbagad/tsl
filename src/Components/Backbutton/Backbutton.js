@@ -1,11 +1,11 @@
 import React from 'react'
-import useHistory from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 
 const Backbutton = () => {
-    const history = useHistory()
+    const history = useNavigate()
 
   return (
-    <a href="#" onClick={() => history.goBack()} style={{textDecoration: 'none'}}>
+    <a href="#" onClick={() => history(-1)} style={{display: 'flex', alignItems: 'center', gap: '1rem', textDecoration: 'none'}}>
     <div style={{cursor: 'pointer', color: 'blue', gap: '1rem'}}>
         <i className="fas fa-arrow-left"></i>
     </div>

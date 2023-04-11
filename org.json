@@ -1,0 +1,96 @@
+{
+    "org": "Tata Consultancy Services",
+    "name": "TCS",
+    "location": "Mumbai",
+    "department": {
+        "name": "IT",
+        "manager": "Rajesh",
+        "designation": "Senior Manager",
+        "employees": [
+            {
+                "name": "Rajesh",
+                "age": 30,
+                "salary": 50000,
+                "designation": "Project Manager",
+                "SubOrdinates": [
+                    {
+                        "name": "Ramesh",
+                        "age": 25,
+                        "salary": 40000
+                    },
+                    {
+                        "name": "Suresh",
+                        "age": 28,
+                        "salary": 45000
+
+                    }
+                ]
+            },
+            {
+                "name": "Ramesh",
+                "age": 25,
+                "salary": 40000,
+                "SubOrdinates": [
+                    {
+                        "name": "Rajesh",
+                        "age": 30,
+                        "salary": 50000,
+                        "designation": "Project Manager",
+                        "SubOrdinates": [
+                            {
+                                "name": "Ramesh",
+                                "age": 25,
+                                "salary": 40000
+                            },
+                            {
+                                "name": "Suresh",
+                                "age": 28,
+                                "salary": 45000
+
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Suresh",
+                        "age": 28,
+                        "salary": 45000,
+                        "SubOrdinates": [
+                            {
+                                "name": "Rajesh",
+                                "age": 30,
+                                "salary": 50000,
+                                "designation": "Project Manager",
+                                "SubOrdinates": [
+                                    {
+                                        "name": "Ramesh",
+                                        "age": 25,
+                                        "salary": 40000
+                                    },
+                                    {
+                                        "name": "Suresh",
+                                        "age": 28,
+                                        "salary": 45000
+
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Suresh",
+                                "age": 28,
+                                "salary": 45000
+
+                            }
+                        ]
+
+                    }
+                ]
+            },
+            {
+                "name": "Suresh",
+                "age": 28,
+                "salary": 45000
+
+            }
+        ]
+    }
+}

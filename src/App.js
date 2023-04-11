@@ -1,9 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Model from './Components/Popups/OrgUnit-Popup';
 
 function App() {
   return (
-    <div className="App">
+    <div>
+      <h1>My App</h1>
+      <Model />
     </div>
   );
 }
