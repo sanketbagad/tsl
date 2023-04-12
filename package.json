@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
     "@fluentui/example-data": "^8.4.7",
     "@fluentui/react": "^8.106.9",
     "@mui/icons-material": "^5.11.16",
